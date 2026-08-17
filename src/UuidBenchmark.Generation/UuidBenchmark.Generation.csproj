@@ -1,0 +1,18 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net9.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <!-- BenchmarkDotNet требует Release-сборку — он сам откажется
+         запускать бенчмарки в Debug и подскажет об этом. -->
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="BenchmarkDotNet" Version="0.14.0" />
+    <PackageReference Include="UUIDNext" Version="4.2.4" />
+    <PackageReference Include="Medo.Uuid7" Version="3.2.0" />
+  </ItemGroup>
+
+</Project>

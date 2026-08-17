@@ -1,0 +1,9 @@
+.idea
+
+# Visual Studio cache/options directory
+.vs/
+
+sources/Pharmix.Portal.App.Sber.SignaturesIssuer/Resources/
+sources/Pharmix.Portal.App.Sber.SignaturesIssuer/image.docker
+devops/universal-chart
+devops/chart/values

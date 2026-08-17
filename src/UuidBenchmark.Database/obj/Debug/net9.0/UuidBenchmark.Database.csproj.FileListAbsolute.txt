@@ -1,0 +1,12 @@
+D:\dev\UuidBenchmark\src\UuidBenchmark.Database\bin\Debug\net9.0\UuidBenchmark.Database.deps.json
+D:\dev\UuidBenchmark\src\UuidBenchmark.Database\bin\Debug\net9.0\UuidBenchmark.Database.dll
+D:\dev\UuidBenchmark\src\UuidBenchmark.Database\bin\Debug\net9.0\UuidBenchmark.Database.pdb
+D:\dev\UuidBenchmark\src\UuidBenchmark.Database\obj\Debug\net9.0\UuidBenchmark.Database.csproj.AssemblyReference.cache
+D:\dev\UuidBenchmark\src\UuidBenchmark.Database\obj\Debug\net9.0\UuidBenchmark.Database.GeneratedMSBuildEditorConfig.editorconfig
+D:\dev\UuidBenchmark\src\UuidBenchmark.Database\obj\Debug\net9.0\UuidBenchmark.Database.AssemblyInfoInputs.cache
+D:\dev\UuidBenchmark\src\UuidBenchmark.Database\obj\Debug\net9.0\UuidBenchmark.Database.AssemblyInfo.cs
+D:\dev\UuidBenchmark\src\UuidBenchmark.Database\obj\Debug\net9.0\UuidBenchmark.Database.csproj.CoreCompileInputs.cache
+D:\dev\UuidBenchmark\src\UuidBenchmark.Database\obj\Debug\net9.0\UuidBenchmark.Database.dll
+D:\dev\UuidBenchmark\src\UuidBenchmark.Database\obj\Debug\net9.0\refint\UuidBenchmark.Database.dll
+D:\dev\UuidBenchmark\src\UuidBenchmark.Database\obj\Debug\net9.0\UuidBenchmark.Database.pdb
+D:\dev\UuidBenchmark\src\UuidBenchmark.Database\obj\Debug\net9.0\ref\UuidBenchmark.Database.dll

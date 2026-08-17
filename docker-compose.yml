@@ -1,0 +1,24 @@
+services:
+  postgres:
+    image: postgres:16
+    container_name: uuid_benchmark_pg
+    environment:
+      POSTGRES_DB: uuid_benchmark
+      POSTGRES_USER: postgres
+      POSTGRES_PASSWORD: postgres
+    ports:
+      - "5433:5432"
+    volumes:
+      - ./db-init:/docker-entrypoint-initdb.d:ro
+      - pgdata:/var/lib/postgresql/data
+    # shared_buffers увеличен относительно дефолтных 128MB, чтобы на объёмах
+    # в несколько миллионов строк было видно реальное поведение кэша,
+    # а не искажение из-за игрушечных настроек контейнера по умолчанию.
+    command: >
+      postgres
+      -c shared_buffers=512MB
+      -c max_wal_size=4GB
+      -c work_mem=64MB
+
+volumes:
+  pgdata:
